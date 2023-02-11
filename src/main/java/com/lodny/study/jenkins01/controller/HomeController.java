@@ -11,6 +11,6 @@ public class HomeController {
     @GetMapping("/hello")
     public String hello() {
         log.info("hello() : ");
-        return "hello3";
+        return "hello4";
     }
 }
